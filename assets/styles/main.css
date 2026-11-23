@@ -860,6 +860,24 @@ address {
   font-size: 0.875rem;
 }
 
+.footer-bottom a {
+  color: var(--on-slate);
+  text-decoration-color: var(--on-slate-rule);
+}
+
+.footer-bottom a:hover {
+  text-decoration-color: currentColor;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 /* Map: tiles toned toward the slate palette, authored pin, themed controls */
 
 .contact-map .leaflet-tile-pane {
