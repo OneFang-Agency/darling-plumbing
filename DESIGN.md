@@ -228,6 +228,12 @@ The client's photo (portrait 3:4, square below 52rem) on a Signal Yellow panel o
 ### Service Block
 A 2px Workshop Slate top rule, title, then a Soft Ink paragraph (max 40ch).
 
+### Icons
+Lucide line icons (ISC licence) inlined as one SVG sprite in index.html, all at stroke-width 2 in Workshop Slate (or currentColor on buttons): phone, star, shower head, heater, map pin, clock. Service headings carry a 2.25rem icon inline before the title (shower head for General plumbing, heater for Plumbing & heating). Contact details sit in a two-column row of a 1.375rem icon and its text (pin + address, phone + number, clock + hours). No icon tiles, circles or colour fills behind icons.
+
+### Favicon
+`assets/images/favicon.svg`: a Deep Slate "D" on a Signal Yellow rounded square (7/32 radius); `assets/images/apple-touch-icon.png` is the same mark on a full square at 180px for iOS.
+
 ### Contact Map
 Leaflet map in a 6px-radius frame with a Fine Rule border; tiles greyscaled to sit in the slate palette; the custom slate pin with a yellow centre; controls restyled with Fine Rule borders and the band hover.
 
