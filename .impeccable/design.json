@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T18:38:17+00:00",
+  "title": "Design System: Darling Plumbing",
+  "extensions": {
+    "colorMeta": {
+      "slate": {
+        "role": "primary",
+        "displayName": "Workshop Slate",
+        "canonical": "#38494d",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "slate-deep": {
+        "role": "primary",
+        "displayName": "Deep Slate",
+        "canonical": "#2c3a3d",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "signal-yellow": {
+        "role": "secondary",
+        "displayName": "Signal Yellow",
+        "canonical": "#f9ff00",
+        "tonalRamp": [
+          "#3a3c00",
+          "#5d6000",
+          "#888c00",
+          "#b4b900",
+          "#dde300",
+          "#f9ff00",
+          "#fbff66",
+          "#fdffc2"
+        ]
+      },
+      "link-blue": {
+        "role": "tertiary",
+        "displayName": "Link Blue",
+        "canonical": "#0174ca",
+        "tonalRamp": [
+          "#012240",
+          "#013766",
+          "#014f91",
+          "#0174ca",
+          "#2f93e0",
+          "#6fb4ea",
+          "#a9d2f3",
+          "#e1effb"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#56676b",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Plain White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "band": {
+        "role": "neutral",
+        "displayName": "Cool Band",
+        "canonical": "#eef2f3",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Fine Rule",
+        "canonical": "#d5dde0",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "on-slate": {
+        "role": "neutral",
+        "displayName": "On-Slate White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "on-slate-soft": {
+        "role": "neutral",
+        "displayName": "On-Slate Mist",
+        "canonical": "#c4d0d3",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      },
+      "on-slate-rule": {
+        "role": "neutral",
+        "displayName": "On-Slate Rule",
+        "canonical": "rgb(255 255 255 / 0.16)",
+        "tonalRamp": [
+          "#141b1d",
+          "#1f292c",
+          "#2c3a3d",
+          "#38494d",
+          "#56676b",
+          "#7c8b8f",
+          "#b3bfc2",
+          "#e6ecee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero heading only; footer call-out uses the same width and tracking at 2.5 to 4.5rem."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service names and small block labels."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero, about and footer leads."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text, max 66ch, on white or the cool band; review quotes at 1rem."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Button text, phone numbers (tabular), reviewer names."
+      }
+    },
+    "shadows": [
+      {
+        "name": "call-lift",
+        "value": "0 6px 18px -6px rgb(0 0 0 / 0.45)",
+        "purpose": "Call button hover only, with translateY(-1px); removed on press."
+      },
+      {
+        "name": "photo-seat",
+        "value": "0 30px 60px -30px rgb(0 0 0 / 0.55)",
+        "purpose": "Seats the hero photo on the slate band, above its flat yellow panel."
+      },
+      {
+        "name": "map-control",
+        "value": "0 2px 8px -2px rgb(0 0 0 / 0.15)",
+        "purpose": "Leaflet zoom controls."
+      },
+      {
+        "name": "map-popup",
+        "value": "0 8px 24px -8px rgb(0 0 0 / 0.3)",
+        "purpose": "Leaflet popup."
+      },
+      {
+        "name": "map-pin",
+        "value": "drop-shadow(0 4px 6px rgb(0 0 0 / 0.3))",
+        "purpose": "Filter on the custom map pin."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The house curve: button lift and the hero photo panel entrance."
+      },
+      {
+        "name": "button-lift",
+        "value": "transform, box-shadow, background-color 180ms var(--ease-out)",
+        "purpose": "Call button hover lift (translateY(-1px) plus call-lift shadow); removed on press."
+      },
+      {
+        "name": "nav-color",
+        "value": "color 150ms ease",
+        "purpose": "Nav link hover colour."
+      },
+      {
+        "name": "panel-out",
+        "value": "1s var(--ease-out) 0.3s both",
+        "purpose": "Signal Yellow panel slides from behind the hero photo (transform: none) to its resting offset translate(-18px, 18px), translate(-10px, 10px) below 52rem. Plays once; under reduced motion the panel simply rests offset."
+      },
+      {
+        "name": "photo-rise",
+        "value": "0.9s var(--ease-out) both",
+        "purpose": "Hero photo rises from translateY(1rem) and fades in from opacity 0. Plays once; static under reduced motion."
+      },
+      {
+        "name": "reviews-drift",
+        "value": "90s linear infinite",
+        "purpose": "Review track translates to calc(-50% - 0.75rem) (half the duplicated track plus half the 1.5rem gap) for a seamless loop; paused on hover or focus-within. Under reduced motion: no animation, duplicates hidden, row scrolls horizontally."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "scroll-behavior: smooth",
+        "purpose": "Anchor scrolling; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tiny",
+        "value": "22rem",
+        "purpose": "Header call button tightens padding."
+      },
+      {
+        "name": "narrow",
+        "value": "40rem",
+        "purpose": "Services stack to one column; review cards narrow to 18rem."
+      },
+      {
+        "name": "header-split",
+        "value": "47.99rem",
+        "purpose": "Header splits into pinned name+call bar and scrolling nav row."
+      },
+      {
+        "name": "about-contact-stack",
+        "value": "48rem"
+      },
+      {
+        "name": "hero-stack",
+        "value": "52rem",
+        "purpose": "Hero to one column, square photo after text, yellow panel offset drops to 10px."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Call Button",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "The single button type: yellow fill, deep slate text, phone icon, starts a phone call.",
+      "html": "<a class=\"ds-btn-call\" href=\"tel:+353852347259\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>085 234 7259</a>",
+      "css": ".ds-btn-call { display: inline-flex; align-items: center; gap: 0.6em; padding: 0.7em 1.15em; border-radius: 6px; background: #f9ff00; color: #2c3a3d; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 1rem; font-weight: 700; font-stretch: 105%; line-height: 1.1; font-variant-numeric: tabular-nums; text-decoration: none; white-space: nowrap; transition: transform 180ms cubic-bezier(0.16,1,0.3,1), box-shadow 180ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-call:hover { transform: translateY(-1px); box-shadow: 0 6px 18px -6px rgb(0 0 0 / 0.45); } .ds-btn-call:active { transform: none; box-shadow: none; } .ds-btn-call:focus-visible { outline: 3px solid #0174ca; outline-offset: 3px; }"
+    },
+    {
+      "name": "Call Button Large",
+      "kind": "button",
+      "refersTo": "button-call-large",
+      "description": "Hero and footer size of the call button, on slate with a yellow focus ring.",
+      "html": "<div class=\"ds-slate-pad\"><a class=\"ds-btn-call-lg\" href=\"tel:+353852347259\">Just give us a call</a></div>",
+      "css": ".ds-slate-pad { background: #38494d; padding: 2rem; } .ds-btn-call-lg { display: inline-flex; align-items: center; padding: 0.95em 1.5em; border-radius: 6px; background: #f9ff00; color: #2c3a3d; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 1.1875rem; font-weight: 700; font-stretch: 105%; line-height: 1.1; text-decoration: none; transition: transform 180ms cubic-bezier(0.16,1,0.3,1), box-shadow 180ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-call-lg:hover { transform: translateY(-1px); box-shadow: 0 6px 18px -6px rgb(0 0 0 / 0.45); } .ds-btn-call-lg:focus-visible { outline: 3px solid #f9ff00; outline-offset: 3px; }"
+    },
+    {
+      "name": "Site Header",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Sticky slate bar: wordmark, three nav links, call button.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-logo\" href=\"#\">Darling <span>Plumbing</span></a><nav><a class=\"ds-nav\" href=\"#\">Home</a><a class=\"ds-nav\" href=\"#\">About Us</a><a class=\"ds-nav\" href=\"#\">Contact Us</a></nav><a class=\"ds-hcall\" href=\"tel:+353852347259\">085 234 7259</a></header>",
+      "css": ".ds-header { display: flex; align-items: center; gap: 2rem; padding: 1rem 1.5rem; background: #38494d; color: #fff; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; } .ds-header nav { display: flex; gap: 1.75rem; } .ds-logo { margin-right: auto; color: #fff; font-weight: 800; font-stretch: 118%; font-size: 1.3125rem; letter-spacing: -0.02em; text-decoration: none; } .ds-logo span { font-weight: 500; color: #c4d0d3; } .ds-nav { color: #c4d0d3; font-size: 1rem; font-weight: 500; text-decoration: none; transition: color 150ms ease; } .ds-nav:hover { color: #fff; } .ds-nav:focus-visible, .ds-logo:focus-visible, .ds-hcall:focus-visible { outline: 3px solid #f9ff00; outline-offset: 3px; } .ds-hcall { padding: 0.7em 1.15em; border-radius: 6px; background: #f9ff00; color: #2c3a3d; font-weight: 700; font-variant-numeric: tabular-nums; text-decoration: none; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Blue underlined inline link on white.",
+      "html": "<p class=\"ds-p\">Open in <a class=\"ds-link\" href=\"#\">Google Maps</a> for directions.</p>",
+      "css": ".ds-p { font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 1.125rem; line-height: 1.6; color: #38494d; } .ds-link { color: #0174ca; text-decoration-thickness: 1px; text-underline-offset: 0.2em; } .ds-link:hover { text-decoration-thickness: 2px; } .ds-link:focus-visible { outline: 3px solid #0174ca; outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Emergency Number",
+      "kind": "chip",
+      "refersTo": "emergency-number",
+      "description": "The phone number inline in a sentence on a small yellow fill.",
+      "html": "<p class=\"ds-emerg\">Emergency 24/7: <a href=\"tel:+353852347259\">085 234 7259</a></p>",
+      "css": ".ds-emerg { font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; font-size: 1.125rem; font-weight: 600; color: #38494d; } .ds-emerg a { padding: 0.15em 0.45em; background: #f9ff00; color: #2c3a3d; font-weight: 800; font-variant-numeric: tabular-nums; text-decoration: none; border-radius: 3px; } .ds-emerg a:hover { text-decoration: underline; } .ds-emerg a:focus-visible { outline: 3px solid #0174ca; outline-offset: 3px; }"
+    },
+    {
+      "name": "Service Block",
+      "kind": "card",
+      "refersTo": "service",
+      "description": "Rule-topped block instead of a card: 2px slate rule, title, soft paragraph.",
+      "html": "<article class=\"ds-service\"><h3>Plumbing &amp; heating</h3><p>Heating systems, cylinder replacement, pumps, radiators and emergencies.</p></article>",
+      "css": ".ds-service { padding-top: 1.5rem; border-top: 2px solid #38494d; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; color: #38494d; } .ds-service h3 { margin: 0; font-size: 1.5rem; font-weight: 700; font-stretch: 112%; line-height: 1.15; letter-spacing: -0.015em; } .ds-service p { margin: 0.875rem 0 0; max-width: 40ch; color: #56676b; font-size: 1.125rem; line-height: 1.6; }"
+    },
+    {
+      "name": "Review Card",
+      "kind": "card",
+      "refersTo": "review-card",
+      "description": "The one card component: white, 1px fine rule, 6px radius, in a full-bleed row on the cool band that drifts in a 90s loop and pauses on hover or focus.",
+      "html": "<div class=\"ds-reviews\"><div class=\"ds-track\"><figure class=\"ds-review\"><blockquote><p>Quoted Google review text, verbatim from the customer.</p></blockquote><figcaption>Reviewer name</figcaption></figure><figure class=\"ds-review\"><blockquote><p>A second quoted review, kept short and in the customer's words.</p></blockquote><figcaption>Reviewer name</figcaption></figure><figure class=\"ds-review\" aria-hidden=\"true\"><blockquote><p>Quoted Google review text, verbatim from the customer.</p></blockquote><figcaption>Reviewer name</figcaption></figure><figure class=\"ds-review\" aria-hidden=\"true\"><blockquote><p>A second quoted review, kept short and in the customer's words.</p></blockquote><figcaption>Reviewer name</figcaption></figure></div></div>",
+      "css": ".ds-reviews { background: #eef2f3; padding: 1.5rem 0; overflow: hidden; font-family: Archivo, 'Helvetica Neue', Arial, sans-serif; color: #38494d; } .ds-track { display: flex; gap: 1.5rem; width: max-content; animation: ds-drift 30s linear infinite; } .ds-reviews:hover .ds-track, .ds-reviews:focus-within .ds-track { animation-play-state: paused; } @keyframes ds-drift { to { transform: translateX(calc(-50% - 0.75rem)); } } @media (prefers-reduced-motion: reduce) { .ds-track { animation: none; } .ds-reviews { overflow-x: auto; } .ds-review[aria-hidden] { display: none; } } .ds-review { flex: none; width: 22rem; margin: 0; padding: 1.5rem; background: #ffffff; border: 1px solid #d5dde0; border-radius: 6px; } .ds-review blockquote { margin: 0; } .ds-review p { margin: 0; font-size: 1rem; line-height: 1.6; } .ds-review figcaption { margin-top: 0.875rem; font-size: 0.9375rem; font-weight: 700; font-stretch: 105%; }"
+    },
+    {
+      "name": "Hero Photo Panel",
+      "kind": "custom",
+      "refersTo": "hero-panel",
+      "description": "The client's photo on slate with a Signal Yellow panel that slides out from behind it to rest offset down-left; the single decorative use of yellow, hero only.",
+      "html": "<div class=\"ds-slate-hero\"><figure class=\"ds-hero-fig\"><div class=\"ds-hero-photo\" role=\"img\" aria-label=\"Client photo\"></div></figure></div>",
+      "css": ".ds-slate-hero { background: #38494d; padding: 2rem 2rem 2.5rem 2.5rem; } .ds-hero-fig { position: relative; isolation: isolate; margin: 0; width: 14rem; } .ds-hero-fig::before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: 6px; background: #f9ff00; transform: translate(-18px, 18px); } .ds-hero-photo { aspect-ratio: 3 / 4; border-radius: 6px; background: linear-gradient(160deg, #7c8b8f, #2c3a3d); box-shadow: 0 30px 60px -30px rgb(0 0 0 / 0.55); } @media (prefers-reduced-motion: no-preference) { .ds-hero-fig::before { animation: ds-panel-out 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both; } .ds-hero-photo { animation: ds-photo-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both; } @keyframes ds-panel-out { from { transform: none; } } @keyframes ds-photo-rise { from { opacity: 0; transform: translateY(1rem); } } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Tradesman's Own Page",
+    "overview": "**Creative North Star: \"The Tradesman's Own Page\"**\n\nA local tradesman's page done with care. The layout is the conventional one a homeowner expects from a plumber, and the identity comes entirely from the brand colours, one heavy extended grotesque, and the owners' own words. Nothing is themed, illustrated, or decorated; the craft is in proportion, rule weight, and the restraint of the yellow.\n\nThe page alternates white reading ground with slate bands (header, hero, footer) and one cool grey band for reviews. Content sits in a single 72rem column with generous section padding. Structure comes from fine horizontal rules and type scale, not from boxes; the reviews row is the one place quotes sit in cards. The only filled shape a visitor is asked to act on is the yellow call button, and it repeats wherever a decision might happen: header, hero, footer.\n\nThe system rejects the stock trades template: icon-card grids, hero stat counters, stock photography, and invented badges.",
+    "keyCharacteristics": [
+      "White ground, slate bands, one cool grey band; yellow reserved for calling, plus the one panel behind the hero photo.",
+      "One family (Archivo variable) carrying everything: extended heavy for headings, regular width for text.",
+      "Fine rules instead of cards, with the drifting reviews row as the single card component; flat surfaces.",
+      "Sticky slate header that keeps the number on screen at every width.",
+      "Real proof only: the client's photo, quoted reviews, the 5.0 rating."
+    ],
+    "rules": [
+      {
+        "name": "The Yellow Means Call Rule",
+        "body": "Signal Yellow fills only things that start a phone call or mark the number, plus the map pin centre. The single decorative exception is the offset panel behind the hero photo (chosen by the user in live mode, 2026-11-23); it is not repeated on any other image or surface. Yellow never colours text, headings, borders, section backgrounds, or any other decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Blue Is For Links Rule",
+        "body": "Link Blue appears only as link text and the light-surface focus ring. On slate bands the focus ring switches to Signal Yellow and links use On-Slate colours.",
+        "section": "colors"
+      },
+      {
+        "name": "The White Reading Ground Rule",
+        "body": "Long reading happens on pure white or the cool band, never on slate; slate bands carry headings, leads, and the call.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Carries Weight Rule",
+        "body": "Headings are always extended (112% to 118%) and heavy (700 to 850) with negative tracking; body is never extended. Do not introduce a second typeface.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Number Rule",
+        "body": "Every phone number is set with tabular numerals and bold weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rules Not Cards Rule",
+        "body": "Content groups are separated by a top rule (1px Fine Rule, or 2px Workshop Slate for service blocks) and whitespace. The only bordered container is the review card (white, 1px Fine Rule, no shadow); no other text sits in a box, and no container carries a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the yellow call button visible in the header at every width, and repeat it at the hero and footer.",
+      "Do set every heading in Archivo at 112% width or wider, 700 to 850 weight, with negative tracking.",
+      "Do separate content with top rules (1px `rule`, or 2px `slate` for service blocks) and whitespace.",
+      "Do keep reading text on white or the cool band, at 1.125rem with line-height 1.6 and max 66ch.",
+      "Do switch the focus ring to Signal Yellow on slate bands and keep it Link Blue on light surfaces.",
+      "Do use only real material: the client's photo and quoted reviews."
+    ],
+    "donts": [
+      "Don't use Signal Yellow for text, borders, section backgrounds, or decoration beyond the one hero photo panel.",
+      "Don't put text in bordered or shadowed cards outside the reviews row, or build icon-card grids.",
+      "Don't add hero stat counters, stock photography, invented badges, or accreditations.",
+      "Don't set Link Blue on slate or on any tint darker than the cool band.",
+      "Don't introduce a second typeface or extend body text."
+    ]
+  }
+}

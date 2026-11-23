@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T18:17:44.660Z",
+        "reason": "finish reviewer: false positive; every section is inset by var(--gutter) and var(--section-y) padding (max()/calc not resolved by detector)"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T18:34:34.771Z",
+        "reason": "user confirmed: chose the scrolling reviews row in live mode and asked for one full-width line (2026-11-23); pauses on hover/focus, static under reduced motion"
+      }
+    ]
+  }
+}
