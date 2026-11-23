@@ -225,6 +225,8 @@ A 22rem white card (18rem below 40rem) with a 1px Fine Rule border, 6px corners,
 ### Hero Photo Panel
 The client's photo (portrait 3:4, square below 52rem) on a Signal Yellow panel of the same size and 6px radius, resting offset down-left (18px, 10px below 52rem). On load the panel slides out from behind the photo over 1s after a 0.3s delay on the expo-out curve, while the photo rises 1rem and fades in over 0.9s; under reduced motion both simply rest in place. One instance only: the hero.
 
+The photo itself is slate-toned: `filter: grayscale(0.85) contrast(1.15) brightness(1.08)` plus a Workshop Slate overlay (`.hero-figure::after`, `mix-blend-mode: color`, opacity 0.55), so it reads as part of the slate hero rather than a warm snapshot.
+
 ### Service Block
 A 2px Workshop Slate top rule, title, then a Soft Ink paragraph (max 40ch).
 
@@ -232,7 +234,7 @@ A 2px Workshop Slate top rule, title, then a Soft Ink paragraph (max 40ch).
 Lucide line icons (ISC licence) inlined as one SVG sprite in index.html, all at stroke-width 2 in Workshop Slate (or currentColor on buttons): phone, star, shower head, heater, map pin, clock. Service headings carry a 2.25rem icon inline before the title (shower head for General plumbing, heater for Plumbing & heating). Contact details sit in a two-column row of a 1.375rem icon and its text (pin + address, phone + number, clock + hours). No icon tiles, circles or colour fills behind icons.
 
 ### Favicon
-`assets/images/favicon.svg`: a Deep Slate "D" on a Signal Yellow rounded square (7/32 radius); `assets/images/apple-touch-icon.png` is the same mark on a full square at 180px for iOS.
+`assets/images/favicon.svg`: a Deep Slate "DP" monogram (drawn as paths) on a Signal Yellow rounded square (7/32 radius); `assets/images/apple-touch-icon.png` is the same mark on a full square at 180px for iOS.
 
 ### Contact Map
 Leaflet map in a 6px-radius frame with a Fine Rule border; tiles greyscaled to sit in the slate palette; the custom slate pin with a yellow centre; controls restyled with Fine Rule borders and the band hover.

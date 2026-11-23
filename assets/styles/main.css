@@ -397,6 +397,20 @@ address {
   object-fit: cover;
   border-radius: var(--radius);
   box-shadow: 0 30px 60px -30px rgb(0 0 0 / 0.55);
+  /* Slate-toned photo: mostly monochrome, then tinted with the brand slate
+     by the overlay below, so it reads as part of the page. */
+  filter: grayscale(0.85) contrast(1.15) brightness(1.08);
+}
+
+.hero-figure::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  background: var(--slate);
+  mix-blend-mode: color;
+  opacity: 0.55;
+  pointer-events: none;
 }
 
 /* Yellow panel: slides out from behind the photo on load and rests offset
